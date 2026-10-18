@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Special Cookie Delivery for Vishal 🍪</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./public/css/style.css" />
+</head>
+
+<body>
+  <!-- Background Decor -->
+  <div class="bg-blobs">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <div class="container">
+    <div class="badge">🚨 URGENT COOKIE DISPATCH NOTICE</div>
+
+    <!-- The Evidence / Cookie Jar Display -->
+    <div class="cookie-polaroid">
+      <div class="cookie-img-wrapper">
+        <img id="cookie-photo" src="./public/images/cookies.jpg" alt="Jar of delicious cookies" />
+        <span class="cookie-tag">Exhibit A 🤤</span>
+      </div>
+      <p class="cookie-caption">Currently held hostage at Prerna's place</p>
+    </div>
+
+    <!-- Reaction Banner GIF -->
+    <div class="banner-gif">
+      <img id="banner" src="https://media.tenor.com/e2ZILKKbZIkAAAAM/peach-goma.gif"
+        alt="Eagerly waiting" />
+    </div>
+
+    <h1 id="question-heading">Prerna, when are these cookies arriving at my place? 🍪</h1>
+    <p class="subtitle" id="sub-heading">My tea/coffee is waiting, and honestly, they miss me already 🥺</p>
+
+    <div class="buttons">
+      <button id="yes-button">Sending them today! 🛵</button>
+      <button id="no-button">Not yet 🙈</button>
+    </div>
+
+    <div class="message">
+      <h2 id="success-message">🎉 WOOHOO! Best decision ever! 🍪</h2>
+      <p class="success-sub">The countdown begins! Keep the jar safe, I'm ready at the door.</p>
+      
+      <div class="dispatch-options">
+        <p class="dispatch-title">Estimated Time of Arrival (ETA):</p>
+        <div class="eta-tags">
+          <button class="eta-btn selected" type="button">Today Evening 🛵</button>
+          <button class="eta-btn" type="button">Tomorrow Morning ☕</button>
+          <button class="eta-btn" type="button">Right Now! 🚀</button>
+        </div>
+      </div>
+
+      <a id="whatsapp-share" class="whatsapp-btn" href="https://api.whatsapp.com/send?text=Hey%20Vishal!%20The%20cookies%20are%20on%20their%20way%20to%20your%20place%20soon!%20%F0%9F%8D%AA%F0%9F%9A%80" target="_blank" rel="noopener noreferrer">
+        💬 Confirm on WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="./public/js/script.js"></script>
+</body>
+
+</html>
